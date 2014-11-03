@@ -1,0 +1,106 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+//@import "compass/reset"
+
+h1, h2, h3, h4, h5, h6
+  background-color: blue
+
+h1
+  background-color: green
+
+header
+  > h2,
+  > h3
+    background-color: violet
+
+
+nav
+  background-color: yellow
+
+  ul
+    li
+      background-color: brown
+
+      &:first-child
+        a
+          color: white
+
+#comments
+  a
+    color: white
+    background-color: maroon
+
+article
+  background-color: navajowhite
+
+  &.blogPost
+    p
+      background-color: orange
+
+    p:first-of-type
+      background-color: navy
+
+    p:last-of-type
+      background-color: cornflowerblue
+
+section
+  >
+    *
+      >
+        p
+          background-color: darkgoldenrod
+
+
+*[datetime]
+  background-color: #ddffdd
+
+
+// CSS3
+nav
+  ul
+    li
+      &:nth-child(4)
+        a
+          background-color: black
+          color: white
+
+article
+  &.blogPost
+    p:nth-child(3)
+      background-color: chartreuse
+
+img[src$=".png"]
+  border: 5px solid red
+
+
+*[datetime*="2009"]
+  background-color: #36d6ff
+
+#comments
+  article:nth-child(2n)
+    background-color: lawngreen
+
+article.blogPost p:not(:nth-of-type(2))
+  font-size: 25px
+
+
+// fonts
+html
+  font-family: "Constantia", "Lucida Bright", "Lucidabright", "Lucida Serif", "Lucida", "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", "Georgia", serif
+  line-height: 2em
+
+a
+  color: darkblue
+  text-decoration: none
+
+  &:hover
+    text-decoration: underline
+
+body
+  text-align: justify
+  text-indent: hanging
+  text-transform: uppercase
+  letter-spacing: 2

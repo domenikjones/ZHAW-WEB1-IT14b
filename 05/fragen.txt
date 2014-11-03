@@ -1,0 +1,26 @@
+1a
+- per GET Attribute in der URL (<form action="get"/>). Keine Sonderzeichen in der URL erlaubt, nur ASCII.
+- <fieldset/> gruppiert Elemente in einem <form/>
+- Beschreiben ein <input name="x" id="x"/> Feld. Mittels <label for="x"/> wobei id wiederum auf name des <input/> geht.
+- Nein, es dient als Attribut-Name (in einem dictionary/array), welches vom "Server" ausgelesen werden kann
+- Mittels vordefiniertem value Wert <input value="abc"/> (oder für Profis placeholder="abc")
+- Ja, schlussendlich den ganzen GET/POST Request des Requestors. IP, Zeit, OS, Port, Browser, Protokoll, sogar die
+ausführende PHP installtion seitens Servers
+
+1b
+- Nun werden die Daten nicht per Request-URL übertragen, sondern im data des POST Request
+- Der Browser fragt typischerweise nach, ob die Formular-Daten erneut übertragen werden sollen, bei GET-Requests nicht
+- Natürlich per POST
+
+1c
+- Als Array oder List. gender[] = 'gender_m'
+- Sie kommen auch an. hidden Felder werden dem Benutzer nicht angezeigt, jedoch als HTML Element verfügbar. Zb für
+Referenz-Felder. zb. von welcher Seite komme ich und soll ich nach validiertem Forumlar hingeleitet werden
+
+
+3
+- Mit dem Attribut type="date",  type="number",  type="email", etc. (HTML5, nur Frontend)
+- Mit dem Attribut required="true" (HTML5, nur Frontend)
+- Nein
+- Mit dem Attribut placeholder="Lorem ipusm"
+- Mit dem attribute autofocus

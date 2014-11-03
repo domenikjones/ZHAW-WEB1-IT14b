@@ -1,0 +1,14 @@
+- Die Elemente html, head und body dienen dem Browser zur Orientierung was Das HTML-Dokument ist, die Meta-Informationen und der darstellbare Inhalt der Zeichenkette in einem HTML File
+- h1 ist ien Heading Element für Titel, p ein Paragraph für Inhalte
+- ASCII 7bit, 8bit
+- Der Zeichensatz UTF-8 ist auf den meisten Endgeräten installiert und somit stehen auch alles Zeichen von UTF-8 auf den meisten Geräten zur Verfüfung
+- src zeigt auf das verlinke File, also eine Pfadangabe. Alt beschreibt das Bild und wird angeziegt, sollte das Bild nicht verfügbar sein.
+- JPG, da es eine grosser verlustfreie Kompression hat
+- <hr />, <br />, <link />
+- Ein Tag ist in HTML definiert und wird von den gängisten Browser korrekt interpretiert. Ein Element ist kann ein Tag sein, aber auch ein anderer Inhalt, welcher nicht in HTML definiert ist.
+- Entweder inline direct per <style /> oder per <link /> als Resource
+- background: black; oder background-color: black;
+
+- Manche Browser zeigen diese Zeichenkette bei längerem MouseOver von Elementen
+- HTML5 hat neue Implementation um Inhalte einer Website zu definieren, so kann eine Sektion als section oder ein Artikel mittels article geschrieben werden
+- header ist ein Tag, der als Teil des body interpretiert wird. head hingegen sind enthält die Meta-Informationen des HTML Dokumentes

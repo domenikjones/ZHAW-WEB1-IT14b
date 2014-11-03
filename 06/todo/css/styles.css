@@ -1,0 +1,43 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@font-face {
+  font-family: "Disko";
+  src: url("../../disko_font/Disko.eot");
+}
+
+@font-face {
+  font-family: "Disko";
+  src: url("../../disko_font/Disko.ttf");
+}
+
+@font-face {
+  font-family: "Disko";
+  src: url("../../disko_font/Disko.woff");
+}
+
+/* line 22, ../sass/styles.sass */
+html {
+  font-family: "Disko", Arial, sans-serif;
+  letter-spacing: 5;
+}
+
+/* line 26, ../sass/styles.sass */
+h1 {
+  color: blue;
+}
+
+/* line 29, ../sass/styles.sass */
+fieldset {
+  border: none;
+}
+/* line 32, ../sass/styles.sass */
+fieldset input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+}
+
+/* line 35, ../sass/styles.sass */
+footer {
+  color: gray;
+}

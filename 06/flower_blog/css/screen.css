@@ -1,0 +1,56 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+h1, h2, h3, h4, h5, h6 {
+  background: blue;
+}
+
+h1 {
+  background: green;
+}
+
+header > h2,
+header > h3 {
+  background: violet;
+}
+
+nav {
+  background: yellow;
+}
+nav ul li {
+  background: brown;
+}
+nav ul li:first-child a {
+  color: white;
+}
+
+#comments a {
+  background: maroon;
+}
+
+article {
+  background: navajowhite;
+}
+article div p {
+  background: orange;
+}
+article div p:first-of-type {
+  background: navy;
+}
+article div p:last-of-type {
+  background: cornflowerblue;
+}
+
+section > * > p {
+  background: darkgoldenrod;
+}
+
+*[datetime] {
+  background-color: #ddffdd;
+}
+
+nav ul li:nth-child(4) a {
+  background-color: black;
+  color: white;
+}

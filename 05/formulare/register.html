@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <title>WEB1-Praktikum 3 &middot; Registrierung</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body id="page_register">
+  
+  <header>
+    <img src="images/zhawlogo_54x57.gif" alt="ZHAW Logo" width="54" height="57"/>
+    <h1>Registrierung</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li id="navi_get-post"><a href="get-post.html">GET vs POST</a></li>
+      <li id="navi_register"><a href="register.html">Registrierung</a></li>
+      <li id="navi_html5"><a href="html5.html">HTML5</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <h2>Registrierung</h2>
+    <form action="https://dublin.zhaw.ch/~bkrt/demos/showpostdata.php" method="post">
+        <fieldset>
+            <legend>Logindaten</legend>
+            <label for="login">Benutzername:</label>
+            <input type="text" id="login" name="login"/>
+            <label for="password">Passwort:</label>
+            <input type="password" id="password" name="password"/>
+            <label for="pwdconfirm">Best&auml;tigen:</label>
+            <input type="password" id="pwdconfirm" name="pwdconfirm"/>
+        </fieldset>
+        <fieldset>
+            <legend>Benutzerdaten</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" />
+            <label for="email">E-Mail:</label>
+            <input type="text" id="email" name="email" />
+            <label for="birthday">Geburtstag:</label>
+            <input type="text" id="birthday" name="birthday" />
+            <fieldset class="radiocheckgroup">
+              <legend><span>Geschlecht:</span></legend>
+
+            <!-- hier fehlen noch die Radio-Buttons -->
+              <input type="radio" value="gender_m" name> m&auml;nnlich <br />
+              <input type="radio" value="gender_f"> weiblich
+            </fieldset>
+
+            <!-- hier fehlt noch das Auswahlmenü -->
+            <label for="course">Kurse:</label>
+            <select name="course" id="course" multiple>
+              <option value="course_1">C++ f&uuml; Fortgeschrittene</option>
+              <option value="course_2">Stricken f&uuml; Hacker</option>
+              <option value="course_3">How to facebook</option>
+              <option value="course_4">Podcasting for dummies</option>
+            </select>
+
+             <label for="comment">Kommentar:</label>
+            <textarea id="comment" name="comment" rows="3" cols="30"></textarea>
+            <label for="submit"></label>
+            <input type="submit" id="submit" name="submit" value="Registrieren" />
+        </fieldset>
+
+        <input type="hidden" name="test_hidden" value="eat_my_shorts" />
+    </form>
+  </main>
+
+</body>
+</html>
