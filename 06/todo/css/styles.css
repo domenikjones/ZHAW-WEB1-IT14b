@@ -23,21 +23,21 @@ html {
   letter-spacing: 5;
 }
 
-/* line 26, ../sass/styles.sass */
+/* line 27, ../sass/styles.sass */
 h1 {
   color: blue;
 }
 
-/* line 29, ../sass/styles.sass */
+/* line 30, ../sass/styles.sass */
 fieldset {
   border: none;
 }
-/* line 32, ../sass/styles.sass */
+/* line 33, ../sass/styles.sass */
 fieldset input[type="checkbox"]:checked + label {
   text-decoration: line-through;
 }
 
-/* line 35, ../sass/styles.sass */
+/* line 36, ../sass/styles.sass */
 footer {
   color: gray;
 }
